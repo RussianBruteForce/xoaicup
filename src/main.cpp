@@ -1,5 +1,4 @@
 #include <QCoreApplication>
-#include <memory>
 #include "xoaicup.h"
 #include "cli.h"
 
