@@ -2,6 +2,7 @@
 #define CLI_H
 
 #include <QObject>
+#include "xoaicup.h"
 
 /*
  * Класс консольного интерфейса для доступа к платформе
@@ -11,7 +12,7 @@ class CLI : public QObject
 {
 	Q_OBJECT
 public:
-	explicit CLI(QObject *parent = 0);
+	explicit CLI(XOAICup *parent);
 
 signals:
 

@@ -1,6 +1,7 @@
 #include "cli.h"
 
-CLI::CLI(QObject *parent) :
+CLI::CLI(XOAICup* parent) :
         QObject(parent)
 {
+	exit(0);
 }
