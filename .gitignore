@@ -23,6 +23,9 @@ ui_*.h
 Makefile*
 *-build-*
 
+#Cmake build dir
+*-build
+
 # QtCreator
 
 *.autosave
