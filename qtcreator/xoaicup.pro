@@ -15,10 +15,10 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += src/main.cpp \
-    src/xoaicup.cpp \
-    src/cli.cpp
+SOURCES += ../src/main.cpp \
+    ../src/xoaicup.cpp \
+    ../src/cli.cpp
 
 HEADERS += \
-    src/xoaicup.h \
-    src/cli.h
+    ../src/xoaicup.h \
+    ../src/cli.h
